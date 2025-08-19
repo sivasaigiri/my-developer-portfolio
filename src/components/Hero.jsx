@@ -3,7 +3,7 @@ import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
 import heroImage from "@/assets/hero-background.jpg";
 
 export const Hero = () => {
-  const scrollToSection = (sectionId: string) => {
+  const scrollToSection = (sectionId) => {
     document.getElementById(sectionId)?.scrollIntoView({ 
       behavior: 'smooth' 
     });

@@ -15,7 +15,7 @@ export const Navigation = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const scrollToSection = (sectionId: string) => {
+  const scrollToSection = (sectionId) => {
     document.getElementById(sectionId)?.scrollIntoView({ 
       behavior: 'smooth' 
     });
